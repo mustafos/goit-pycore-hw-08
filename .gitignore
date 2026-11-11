@@ -1,0 +1,34 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and secrets
+.venv/
+venv/
+env/
+.env
+
+# Editors
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime address book.
+# addressbook.pkl is created by the assistant. It holds personal names,
+# phone numbers, and birthdays, and a pickle file must be loaded only from
+# a trusted source. It is generated data, so Git does not track it.
+*.pkl
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
